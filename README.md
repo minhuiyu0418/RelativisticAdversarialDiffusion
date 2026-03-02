@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ## 📊 Data Preparation
 
-The model expects preprocessed 3D NIfTI brain images. Images should be co-registered to MNI space. A common pro-processing pipeline can be found [here](https://www.gaaindata.org/data/centiloid/Centiloid_Processing.docx).
+The model expects preprocessed 3D NIfTI brain images. Images should be co-registered to MNI space. A common pre-processing pipeline can be found [here](https://www.gaaindata.org/data/centiloid/Centiloid_Processing.docx).
 
 Organize your data as follows:
 
@@ -63,7 +63,7 @@ If your dataset does not have all five modalities for every subject, the validat
 
 ## 🚀 Quick Start (Running the Project)
 
-You can run the entire pipeline (Preprocessing, Training, and Inference) using the convenience runner.
+You can run the entire pipeline (Data Loading, Training, and Inference) using the convenience runner.
 
 From the project root:
 
